@@ -1,0 +1,19 @@
+footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.content {
+    text-align: left;
+}
