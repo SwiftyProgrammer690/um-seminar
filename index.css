@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
 footer{
     display: table;
     text-align: center;
@@ -7,6 +9,7 @@ footer{
 
 body {
     text-align: center;
+    font-family: 'Jost';
 }
 
 a {
@@ -14,6 +17,34 @@ a {
     color: blue;
 }
 
-.content {
-    text-align: left;
+img {
+    border-radius: 10px;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.image-container {
+    position: relative;
+    margin-right: 10px; /* Adjust this value to control the space between images */
+}
+
+.image-container:last-child {
+    margin-right: 0; /* Remove margin for the last image */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 20px;
 }
