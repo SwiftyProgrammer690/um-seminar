@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
 footer{
     display: table;
@@ -9,7 +9,7 @@ footer{
 
 body {
     text-align: center;
-    font-family: 'Jost';
+    font-family: 'Lora';
 }
 
 a {
